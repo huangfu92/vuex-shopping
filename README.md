@@ -1,16 +1,20 @@
 # shopping_vuex
 
-## Project setup
+## 安装
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 启动项目命令
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 打包工具命令
 ```
 npm run build
+```
+### 官网URL
+```
+https://github.com/vuejs/vuex/tree/dev/examples/shopping-cart
 ```
