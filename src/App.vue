@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <product></product>
+    <!-- 购物车的列表 -->
+    <cart></cart>
+    <!-- 小记 -->
+    <info></info>
   </div>
 </template>
 
@@ -29,3 +29,17 @@
   color: #42b983;
 }
 </style>
+
+<script>
+  import product from './components/product';
+  import cart from './components/cart';
+  import info from './components/info';
+  export default {
+        name: 'app',
+        components: {
+            product,
+            cart,
+            info
+        }
+    }
+</script>
